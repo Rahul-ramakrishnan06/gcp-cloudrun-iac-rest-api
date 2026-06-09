@@ -13,7 +13,7 @@ env:
   GCP_REGION: ${{ secrets.GCP_REGION }}             
   TF_BUCKET: ${{ secrets.TF_BUCKET }} 
   TF_PREFIX: terraform/state 
-  SERVICE_NAME: icliniq-project-cloud-run
+  SERVICE_NAME: GCP-project-cloud-run
   
 
 jobs:

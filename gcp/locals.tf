@@ -1,11 +1,11 @@
 locals {
 
-  env = "icliniq-dev"
+  env = "GCP-dev"
 
   region = "asia-south1"
 
-  vpc_name   = "icliniq-vpc"
-  project_id = "icliniq-project"
+  vpc_name   = "GCP-vpc"
+  project_id = "GCP-project"
 
   artifact_repo = "${local.project_id}-registry"
 
@@ -13,7 +13,7 @@ locals {
 
   service_account_prefix = "${local.env}-"
 
-  image_name = "icliniq-node-app"
+  image_name = "GCP-node-app"
 
   db_user = "admin"
 
@@ -25,9 +25,9 @@ locals {
 
   db_tier = "db-f1-micro"
 
-  tf_state_bucket = "icliniq-state-bucket"
+  tf_state_bucket = "GCP-state-bucket"
 
-  slack_channel_name = "icliniq_alerts" 
+  slack_channel_name = "GCP_alerts" 
 
   email_alert = "rahulkarthi06.02@gmail.com"
 

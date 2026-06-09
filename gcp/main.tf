@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket = "icliniq-state-bucket"
+    bucket = "GCP-state-bucket"
     prefix = "envs/prod"
   }
 }
